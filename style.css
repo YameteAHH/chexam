@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+/* Applies to all elements */
+* {
+    margin-top: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+    background-color: #eedf89;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 14rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}                                                       
+
+/* Buttons Here */
+main .btn-section .btn {
+    background-color: #00bf63 ;
+    padding: 10px 56px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+main .btn-section .btn.upload {
+    background-color: #8bd6aa;
+}
+
+main .btn-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 8rem;
+    justify-content: center;
+}
+
+/* Scan Page */
+.camera-container {
+    width: 640px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: black;
+}
